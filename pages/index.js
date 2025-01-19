@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>Movie Search App</h1>
+      <h1>Welcome to Movie Search App</h1>
       <SearchBar
         value={query}
         onChange={(e) => setQuery(e.target.value)}

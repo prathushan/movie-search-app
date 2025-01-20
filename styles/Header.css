@@ -1,0 +1,53 @@
+/* styles/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .header-left .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header-center nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-center nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .header-center nav a:hover {
+    color: #f05454;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    background-color: #f05454;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #d94343;
+  }
+  

@@ -1,0 +1,33 @@
+/* styles/Footer.css */
+.footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    width: 30%;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
